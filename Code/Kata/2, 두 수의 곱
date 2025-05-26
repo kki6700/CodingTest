@@ -1,0 +1,18 @@
+#include <string>
+#include <vector>
+
+using namespace std;
+
+int solution(int num1, int num2) {
+    
+    int i = 0;
+    int j = 100;
+    
+    if ((i <= num1 <= j) && (i <= num2 <= j)){
+        
+        int answer = num1 * num2;
+        return answer;
+    }
+    
+    
+}
