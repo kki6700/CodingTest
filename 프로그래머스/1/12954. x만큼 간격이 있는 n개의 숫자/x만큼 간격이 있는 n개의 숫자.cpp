@@ -8,10 +8,5 @@ vector<long long> solution(int x, int n) {
     for (int i = 1; i <= n; i++) {
         answer.push_back((long long)x * i); 
     }
-    
-    
-    ;
-    
-    
     return answer;
 }
